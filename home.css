@@ -1,0 +1,62 @@
+
+ /*No body precisariamos de uma fonte especifíca usada no canva, que baixamos da internet e importamos no aquivo*/
+@font-face {
+    font-family: fonte1; src: url(fontelight.ttf);
+} 
+
+/*-----------------------------------CABEÇALHO - TELEFONE --------------------------------------------------*/
+
+/*Para o cabeçalho em si escolhemos o design*/
+.cabeçalho-tel {
+    background-color: rgb(187, 230, 247); 
+    color: rgb(19, 19, 19);
+    text-align: center; 
+}
+
+
+/*Vi que para uma imagem ficar lado a lado do texto deve-se usar o flex, e podemos alinha-los no centro, imagem + telefone*/
+.cabeçalho-tel-atributos {
+    display: flex; 
+    justify-content: center; /* Alinhar os itens horizontalmente */
+    align-items: center;/*a imagem e o texto ficarem no centro*/
+}
+
+.icone-tel {
+    height: 25px;/* Ajustar o tamanho do ícone */
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+
+}
+
+.numero-tel {
+    font-size: 15px; /* Ajustar o tamanho do texto */
+    
+    
+}
+
+/*-----------------------------------------CABEÇALHO - GERAL----------------------------------------------------*/
+.cabeçalho-geral{
+    display: flex; 
+    justify-content:left; /* Alinhar os itens horizontalmente */
+    align-items: center;/*a imagem e o texto ficarem no centro*/
+    margin-left: 2cm;
+}
+
+/*Decoração da tabela, usada para fazer o cabeçalho geral*/
+.icone-escola{
+    height: 6cm;
+    width: auto ;
+    margin-right: 5cm;
+
+}
+
+table{
+    border-spacing: 55px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+
+ }
+ hr{
+    margin-top: 0;
+    margin-bottom: 0px;
+ }
