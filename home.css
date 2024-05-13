@@ -1,62 +1,77 @@
-
- /*No body precisariamos de uma fonte especifíca usada no canva, que baixamos da internet e importamos no aquivo*/
+/*No body precisariamos de uma fonte especifíca usada no canva, que baixamos da internet e importamos no aquivo*/
 @font-face {
-    font-family: fonte1; src: url(fontelight.ttf);
-} 
+  font-family: fonte1;
+  src: url(fontelight.ttf);
+}
 
 /*-----------------------------------CABEÇALHO - TELEFONE --------------------------------------------------*/
 
 /*Para o cabeçalho em si escolhemos o design*/
 .cabeçalho-tel {
-    background-color: rgb(187, 230, 247); 
-    color: rgb(19, 19, 19);
-    text-align: center; 
+  background-color: rgb(187, 230, 247);
+  color: rgb(19, 19, 19);
+  text-align: center;
+  position: relative; /*Para adicionar a imagem em cima do nosso h1 teho que adiconar essa função*/
 }
-
 
 /*Vi que para uma imagem ficar lado a lado do texto deve-se usar o flex, e podemos alinha-los no centro, imagem + telefone*/
 .cabeçalho-tel-atributos {
-    display: flex; 
-    justify-content: center; /* Alinhar os itens horizontalmente */
-    align-items: center;/*a imagem e o texto ficarem no centro*/
+  display: flex;
+  justify-content: center; /* Alinhar os itens horizontalmente */
+  align-items: center; /*a imagem e o texto ficarem no centro*/
 }
 
 .icone-tel {
-    height: 25px;/* Ajustar o tamanho do ícone */
-    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
-
+  height: 25px; /* Ajustar o tamanho do ícone */
+  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
 }
 
+/*ICONE ACESSIBILIDADE*/
+.icone-acessibilidade {
+  height: auto;
+  width: 4cm;
+  position: absolute; /* Aqui sem esse comando iria ficar em baixo dos numeros*/
+  top: 50%; /* Posiciona o ícone a partir do topo do cabeçalho do telefone */
+  right: 30px; /* Distância do ícone até a borda direita do cabeçalho */
+  transform: translateY(-50%); /* Centraliza verticalmente o ícone */
+}
 .numero-tel {
-    font-size: 15px; /* Ajustar o tamanho do texto */
-    
-    
+  font-size: 15px; /* Ajustar o tamanho do texto */
 }
 
-/*-----------------------------------------CABEÇALHO - GERAL----------------------------------------------------*/
-.cabeçalho-geral{
-    display: flex; 
-    justify-content:left; /* Alinhar os itens horizontalmente */
-    align-items: center;/*a imagem e o texto ficarem no centro*/
-    margin-left: 2cm;
+/*-----------------------------------------CABEÇALHO - GERAL----------------------------------------------*/
+.cabeçalho-geral {
+  display: flex;
+  justify-content: left; /* Alinhar os itens horizontalmente */
+  align-items: center; /*a imagem e o texto ficarem no centro*/
 }
 
-/*Decoração da tabela, usada para fazer o cabeçalho geral*/
-.icone-escola{
-    height: 6cm;
-    width: auto ;
-    margin-right: 5cm;
-
+/*ICONE DA LOGO DA ESCOLA*/
+.icone-escola {
+  height: auto;
+  width: 200px;
+  margin-right: 5px;
 }
 
-table{
-    border-spacing: 55px;
-    text-align: center;
-    margin: 0;
-    letter-spacing: 1px;
+table {
+  border-spacing: 5px; /* Espaçamento entre as células */
+  text-align: center;
+  margin: auto; /* Centralize a tabela horizontalmente */
+  letter-spacing: 1px;
+  width: 100%;
+}
+hr {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
 
- }
- hr{
-    margin-top: 0;
-    margin-bottom: 0px;
- }
+/*ICONES DAS AREAS DE ACESSO ALUNO E PROFESSOR*/
+.icone-acesso {
+  height: auto;
+  width: 99px;
+}
+
+.icone-professor {
+  height: auto;
+  width: 125px;
+}
