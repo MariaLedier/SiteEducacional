@@ -12,6 +12,7 @@
 body {
   margin: 0;
 }
+
 /*-----------------------------------CABEÇALHO - TELEFONE --------------------------------------------------*/
 
 /*Para o cabeçalho em si escolhemos o design*/
@@ -176,6 +177,7 @@ h2 {
 p {
   font-family: fonte1;
 }
+
 /*---------------------------------------ÁREA ALUNO------------------------------------------------------*/
 .backgroundArea {
   background-color: #f8f8f8;
@@ -249,4 +251,45 @@ p {
 .imgAreaProfessor {
   margin: 0 auto;
   display: block;
+}
+
+/* LOGIN DO ALUNO */
+.containerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+/* APARÊNCIA DO BOTÃO E DEPOS O HOVER DELE */
+.buttonLogin {
+  background-color: #bcbcbc;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonLogin:hover {
+  background-color: #1e81b0;
+}
+
+.containerLogin {
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
 }
