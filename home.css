@@ -173,20 +173,21 @@ p {
   font-family: fonte1;
 }
 
+/*------------------------------------ÁREA DO ALUNO---------------------------------------------------------*/
 .backgroundAreaAluno {
   background-color: #f8f8f8;
 }
 
 .imgAreaAluno {
   margin-top: 50px;
-  justify-content: center;
-  width: 250px;
+  width: 200px;
 }
 
 .h1AreaAluno {
   text-transform: uppercase;
-  size: 10px;
+  font-size: 20px;
   text-align: center;
+  font-family: fonteG;
 }
 
 .buttonAreaAluno {
@@ -201,6 +202,8 @@ p {
 .labelAreaAluno {
   display: block;
   margin-bottom: 5px;
+  font-family: fonte1;
+  font-weight: bolder;
 }
 
 .containerAreaAluno {
@@ -221,5 +224,7 @@ p {
 }
 
 .centralizaAreaAluno {
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
