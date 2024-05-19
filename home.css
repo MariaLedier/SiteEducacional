@@ -172,7 +172,7 @@ h2 {
 p {
   font-family: fonte1;
 }
-
+/*---------------------------------------ÁREA ALUNO------------------------------------------------------*/
 .backgroundArea {
   background-color: #f8f8f8;
 }
@@ -242,7 +242,7 @@ p {
   flex-direction: row;
 }
 
-.imgAreaProfessor{
+.imgAreaProfessor {
   margin: 0 auto;
   display: block;
 }
