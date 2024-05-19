@@ -9,6 +9,9 @@
   src: url(Fontes/fonteG.ttf);
 }
 
+body {
+  margin: 0;
+}
 /*-----------------------------------CABEÇALHO - TELEFONE --------------------------------------------------*/
 
 /*Para o cabeçalho em si escolhemos o design*/
