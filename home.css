@@ -255,22 +255,33 @@ p {
 
 /*--------------------------------NOSSOS PILARES(HOME)--------------------------------------------------*/
 .h2pilares {
-  text-align: center;
   font-family: fonteG;
   color: rgb(255, 230, 0);
   font-size: 1cm;
   text-align: center;
   align-items: center;
 }
-.divpilares {
+
+.divcontainer {
   margin-top: 5cm;
 }
 
 .ospilares {
   display: flex;
   text-align: center;
-  align-items: center;
   margin: 2cm;
+  justify-content: space-around;
+}
+
+.ospilares div {
+  max-width: 200px;
+  font-size: 20px;
+  text-align: left;
+}
+
+h3 {
+  color: #021338;
+  font-family: fonteG;
 }
 
 /* LOGIN DO ALUNO */
@@ -313,3 +324,5 @@ p {
   flex-wrap: wrap;
   margin: 20px;
 }
+
+/*-----------------*/

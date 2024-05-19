@@ -10,6 +10,19 @@
         margin: 0; /* Remover as margens*/
         font-family: fonte1;
       }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      /* Qando o mouse está sobre o link */
+      a:hover {
+        color: rgb(55, 79, 189);
+      }
+
+      /* Estilo para o link quando já foi visitado no caso nenhum */
+      a:visited {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -30,28 +43,47 @@
     <div class="cabeçalho-geral">
       <table>
         <thead>
-          <tr><!--Para adicionar a foto na tabela-->
-            <th rowspan="4"> <a href="home.html"><img class="icone-escola" src="Icones/logoescola.png" /></a></th>
+          <tr>
+            <!--Para adicionar a foto na tabela-->
+            <th rowspan="4">
+              <a href="home.html"
+                ><img class="icone-escola" src="Icones/logoescola.png"
+              /></a>
+            </th>
             <th><a href="home.html">HOME</a></th>
-            <th> <a href="institucional.html">INSTITUCIONAL</a></th>
+            <th><a href="institucional.html">INSTITUCIONAL</a></th>
             <th>NOTÍCIAS</th>
             <th>PESQUISA</th>
-            <th> <a href="areaaluno.html"><img
-              class="icone-acesso"
-              src="Icones/iconealuno.png"
-              alt="Icone de acesso area do aluno"
-            /></a>
-              
+            <th>
+              <a href="areaaluno.html"
+                ><img
+                  class="icone-acesso"
+                  src="Icones/iconealuno.png"
+                  alt="Icone de acesso area do aluno"
+              /></a>
             </th>
-            <th> <a href="areaprofessor.html"><img
-              class="icone-professor"
-              src="Icones/iconeprofessor.png"
-              alt="Icone de acesso area do professor"
-            /></a></th>
+            <th>
+              <a href="areaprofessor.html"
+                ><img
+                  class="icone-professor"
+                  src="Icones/iconeprofessor.png"
+                  alt="Icone de acesso area do professor"
+              /></a>
+            </th>
           </tr>
         </thead>
       </table>
     </div>
     <hr />
-</body>
+    <br />
+    <h2 style="text-align: center">Assista o Vídeo e saiba mais:</h2>
+    <div style="display: flex; align-items: center; justify-content: center">
+      <video
+        src="Imagens/Escola Moppe - Vídeo Institucional.mp4"
+        controls="controls"
+        width="60%"
+        poster="Imagens/logoarea.png"
+      ></video>
+    </div>
+  </body>
 </html>
