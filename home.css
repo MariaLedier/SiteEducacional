@@ -257,6 +257,8 @@ p {
   font-family: fonteG;
   color: rgb(255, 230, 0);
   font-size: 1cm;
+  text-align: center;
+  align-items: center;
 }
 .divpilares {
   margin-top: 5cm;
@@ -266,4 +268,5 @@ p {
   display: flex;
   text-align: center;
   align-items: center;
+  margin: 2cm;
 }
