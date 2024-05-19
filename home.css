@@ -253,6 +253,10 @@ p {
   display: block;
 }
 
+.containerFix {
+  margin: 0 auto;
+}
+
 /*--------------------------------NOSSOS PILARES(HOME)--------------------------------------------------*/
 .h2pilares {
   font-family: fonteG;
@@ -261,8 +265,7 @@ p {
   text-align: center;
   align-items: center;
 }
-
-.divcontainer {
+.divpilares {
   margin-top: 5cm;
 }
 
