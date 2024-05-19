@@ -52,6 +52,7 @@
 
 .numero-tel {
   font-size: 15px;
+  font-family: fonte1;
   /* Ajustar o tamanho do texto */
 }
 
@@ -179,7 +180,7 @@ p {
 
 .imgArea {
   margin: 0 auto;
-  display: block;
+  display: flex;
   width: 200px;
 }
 
