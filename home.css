@@ -253,6 +253,10 @@ p {
   display: block;
 }
 
+.containerFix {
+  margin: 0 auto;
+}
+
 /*--------------------------------NOSSOS PILARES(HOME)--------------------------------------------------*/
 .h2pilares {
   text-align: center;
@@ -260,6 +264,7 @@ p {
   color: rgb(255, 230, 0);
   font-size: 1cm;
 }
+
 .divpilares {
   margin-top: 5cm;
 }
