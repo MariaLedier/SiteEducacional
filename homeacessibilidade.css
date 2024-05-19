@@ -7,6 +7,24 @@
   font-family: fonteG;
   src: url(Fontes/fonteG.ttf);
 }
+body {
+  margin: 0; /* Remover as margens*/
+  font-family: fonte1;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/* Qando o mouse está sobre o link */
+a:hover {
+  color: rgb(55, 79, 189);
+}
+
+/* Estilo para o link quando já foi visitado no caso nenhum */
+a:visited {
+  text-decoration: none;
+}
 
 /*-----------------------------------CABEÇALHO - TELEFONE --------------------------------------------------*/
 
@@ -64,6 +82,7 @@ table {
   letter-spacing: 1px;
   width: 100%;
   font-size: 15px;
+  color: white;
 }
 hr {
   margin-top: 0;
