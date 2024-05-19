@@ -1,59 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Área do Professor</title>
+    <link rel="stylesheet" href="home.css" />
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Área do Professor</title>
-  <link rel="stylesheet" href="home.css" />
-  <style>
-    body {
-      margin: 0;
-    }
-  </style>
-</head>
+  <body>
+    <div class="cabeçalho-tel">
+      <div class="cabeçalho-tel-atributos">
+        <img class="icone-tel" src="Icones/phone.png" alt="Ícone de telefone" />
+        <h1 class="numero-tel">0800 052 8888</h1>
+      </div>
 
-<body>
-  <div class="cabeçalho-tel">
-    <div class="cabeçalho-tel-atributos">
-      <img class="icone-tel" src="Icones/phone.png" alt="Ícone de telefone" />
-      <h1 class="numero-tel">0800 052 8888</h1>
-    </div>
-
-    <div>
-      <img usemap="#icone-acessibilidade" class="icone-acessibilidade" src="Icones/iconeacessibilidade.png"
-        alt="Icones de acessibilidade" />
-    </div>
-  </div>
-
-  <div class="containerArea2">
-    <div>
-      <img src="Imagens/professorsala.jpg" alt="professora em pé sorrindo" class="imgAreaProfessor" />
-    </div>
-    <div class="containerFix">
-      <br>
-      <br>
-      <img src="Imagens/logoarea.png" alt="logo da escola" class="imgArea" />
-      <hr class="linha-azul" />
-      <h1 class="h1Area">ambiente virtual de aprendizagem</h1>
-      <br>
-      <br>
-
-      <div class="containerArea; containerFix">
-        <form action="" method="post">
-          <label for="matricula" class="labelArea">RM / Matrícula:</label>
-          <input class="inputArea" type="text" id="matricula" name="matricula" placeholder="digite aqui a matrícula" />
-          <br />
-
-          <label for="senha" class="labelArea">Senha:</label>
-          <input class="inputArea" type="password" id="senha" name="senha" placeholder="digite aqui sua senha" />
-          <br />
-          <button type="submit" class="buttonArea">Entrar</button>
-        </form>
-        <a href="" class="linkArea"> Esqueceu sua senha? </a>
+      <div>
+        <img
+          usemap="#icone-acessibilidade"
+          class="icone-acessibilidade"
+          src="Icones/iconeacessibilidade.png"
+          alt="Icones de acessibilidade"
+        />
       </div>
     </div>
-  </div>
-</body>
 
+    <div class="containerArea2">
+      <div>
+        <img
+          src="Imagens/professorsala.jpg"
+          alt="professora em pé sorrindo"
+          class="imgAreaProfessor"
+        />
+      </div>
+      <div class="containerFix">
+        <br />
+        <br />
+        <a href="home.html"
+          ><img src="Imagens/logoarea.png" alt="logo da escola" class="imgArea"
+        /></a>
+        <hr class="linha-azul" />
+        <h1 class="h1Area">ambiente virtual de aprendizagem</h1>
+        <br />
+        <br />
+
+        <div class="containerArea; containerFix">
+          <form action="" method="post">
+            <label for="matricula" class="labelArea">RM / Matrícula:</label>
+            <input
+              class="inputArea"
+              type="text"
+              id="matricula"
+              name="matricula"
+              placeholder="digite aqui a matrícula"
+            />
+            <br />
+
+            <label for="senha" class="labelArea">Senha:</label>
+            <input
+              class="inputArea"
+              type="password"
+              id="senha"
+              name="senha"
+              placeholder="digite aqui sua senha"
+            />
+            <br />
+            <button type="submit" class="buttonArea">Entrar</button>
+          </form>
+          <a href="" class="linkArea"> Esqueceu sua senha? </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
