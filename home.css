@@ -3,6 +3,7 @@
   font-family: fonte1;
   src: url(Fontes/fontelight.ttf);
 }
+
 @font-face {
   font-family: fonteG;
   src: url(Fontes/fonteG.ttf);
@@ -15,39 +16,52 @@
   background-color: rgb(187, 230, 247);
   color: rgb(19, 19, 19);
   text-align: center;
-  position: relative; /*Para adicionar a imagem em cima do nosso h1 teho que adiconar essa função*/
+  position: relative;
+  /*Para adicionar a imagem em cima do nosso h1 teho que adiconar essa função*/
 }
 
 /*Vi que para uma imagem ficar lado a lado do texto deve-se usar o flex, e podemos alinha-los no centro, imagem + telefone*/
 .cabeçalho-tel-atributos {
   display: flex;
-  justify-content: center; /* Alinhar os itens horizontalmente */
-  align-items: center; /*a imagem e o texto ficarem no centro*/
+  justify-content: center;
+  /* Alinhar os itens horizontalmente */
+  align-items: center;
+  /*a imagem e o texto ficarem no centro*/
 }
 
 .icone-tel {
-  height: 25px; /* Ajustar o tamanho do ícone */
-  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+  height: 25px;
+  /* Ajustar o tamanho do ícone */
+  margin-right: 10px;
+  /* Espaçamento entre o ícone e o texto */
 }
 
 /*ICONE ACESSIBILIDADE*/
 .icone-acessibilidade {
   height: auto;
   width: 4cm;
-  position: absolute; /* Aqui sem esse comando iria ficar em baixo dos numeros*/
-  top: 50%; /* Posiciona o ícone a partir do topo do cabeçalho do telefone */
-  right: 30px; /* Distância do ícone até a borda direita do cabeçalho */
-  transform: translateY(-50%); /* Centraliza verticalmente o ícone */
+  position: absolute;
+  /* Aqui sem esse comando iria ficar em baixo dos numeros*/
+  top: 50%;
+  /* Posiciona o ícone a partir do topo do cabeçalho do telefone */
+  right: 30px;
+  /* Distância do ícone até a borda direita do cabeçalho */
+  transform: translateY(-50%);
+  /* Centraliza verticalmente o ícone */
 }
+
 .numero-tel {
-  font-size: 15px; /* Ajustar o tamanho do texto */
+  font-size: 15px;
+  /* Ajustar o tamanho do texto */
 }
 
 /*-----------------------------------------CABEÇALHO - GERAL----------------------------------------------*/
 .cabeçalho-geral {
   display: flex;
-  justify-content: left; /* Alinhar os itens horizontalmente */
-  align-items: center; /*a imagem e o texto ficarem no centro*/
+  justify-content: left;
+  /* Alinhar os itens horizontalmente */
+  align-items: center;
+  /*a imagem e o texto ficarem no centro*/
 }
 
 /*ICONE DA LOGO DA ESCOLA*/
@@ -58,13 +72,16 @@
 }
 
 table {
-  border-spacing: 5px; /* Espaçamento entre as células */
+  border-spacing: 5px;
+  /* Espaçamento entre as células */
   text-align: center;
-  margin: auto; /* Centralize a tabela horizontalmente */
+  margin: auto;
+  /* Centralize a tabela horizontalmente */
   letter-spacing: 1px;
   width: 100%;
   font-size: 15px;
 }
+
 hr {
   margin-top: 0;
   margin-bottom: 0px;
@@ -108,6 +125,7 @@ hr {
   /* margin-left: 2cm; cm?????????????*/
   border-radius: 10px;
 }
+
 .bloco2-amarelo {
   background-color: #ffd750;
   padding: 20px;
@@ -154,6 +172,58 @@ hr {
 h2 {
   font-family: fonteG;
 }
+
 p {
   font-family: fonte1;
+}
+
+.backgroundAreaAluno {
+  background-color: #f8f8f8;
+}
+
+.imgAreaAluno {
+  margin-top: 50px;
+  justify-content: center;
+  width: 250px;
+}
+
+.h1AreaAluno {
+  text-transform: uppercase;
+  size: 10px;
+  text-align: center;
+}
+
+.buttonAreaAluno {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.labelAreaAluno {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.containerAreaAluno {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.inputAreaAluno {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.centralizaAreaAluno {
+  align-items: center;
 }
