@@ -263,6 +263,8 @@ p {
   font-family: fonteG;
   color: rgb(255, 230, 0);
   font-size: 1cm;
+  text-align: center;
+  align-items: center;
 }
 
 .divpilares {
@@ -273,6 +275,7 @@ p {
   display: flex;
   text-align: center;
   align-items: center;
+  margin: 2cm;
 }
 
 /* LOGIN DO ALUNO */
