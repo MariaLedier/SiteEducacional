@@ -173,6 +173,7 @@ p {
   font-family: fonte1;
 }
 
+<<<<<<< HEAD
 .backgroundArea {
   background-color: #f8f8f8;
 }
@@ -180,14 +181,29 @@ p {
 .imgArea {
   margin: 0 auto;
   display: block;
+=======
+/*------------------------------------ÁREA DO ALUNO---------------------------------------------------------*/
+.backgroundAreaAluno {
+  background-color: #f8f8f8;
+}
+
+.imgAreaAluno {
+  margin-top: 50px;
+>>>>>>> 2e326f83e84e7c416e0e5517164f7e0b530790b1
   width: 200px;
 }
 
 .h1Area {
   text-transform: uppercase;
+<<<<<<< HEAD
   font-size: 18px;
   text-align: center;
   font-family: fonte1;
+=======
+  font-size: 20px;
+  text-align: center;
+  font-family: fonteG;
+>>>>>>> 2e326f83e84e7c416e0e5517164f7e0b530790b1
 }
 
 .buttonArea {
@@ -200,10 +216,18 @@ p {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .labelArea {
   font-family: fonteG;
   font-size: 20px;
   margin: 15px 10px 5px 0px;
+=======
+.labelAreaAluno {
+  display: block;
+  margin-bottom: 5px;
+  font-family: fonte1;
+  font-weight: bolder;
+>>>>>>> 2e326f83e84e7c416e0e5517164f7e0b530790b1
 }
 
 .containerArea {
@@ -225,6 +249,7 @@ p {
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 .linha-azul {
   border: none;
   height: 2px;
@@ -246,3 +271,10 @@ p {
   margin: 0 auto;
   display: block;
 }
+=======
+.centralizaAreaAluno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+>>>>>>> 2e326f83e84e7c416e0e5517164f7e0b530790b1
