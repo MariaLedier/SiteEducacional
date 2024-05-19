@@ -32,11 +32,24 @@
         <img class="icone-tel" src="Icones/phone.png" alt="Ícone de telefone" />
         <h1 class="numero-tel">0800 052 8888</h1>
       </div>
-      <img
-        class="icone-acessibilidade"
-        src="Icones/iconeacessibilidade.png"
-        alt="Icones de acessibilidade"
-      />
+
+      <div>
+        <map name="icone-acessibilidade"
+          ><area
+            shape="circle"
+            coords="50,40,20"
+            href="homeacessibilidade.html"
+            alt="Link de acessibilidade para baixa visão"
+            title="Baixa-visão"
+          />
+        </map>
+        <img
+          usemap="#icone-acessibilidade"
+          class="icone-acessibilidade"
+          src="Icones/iconeacessibilidade.png"
+          alt="Icones de acessibilidade"
+        />
+      </div>
     </div>
 
     <!--CABEÇALHO - Geral-->
@@ -52,7 +65,7 @@
             </th>
             <th><a href="home.html">HOME</a></th>
             <th><a href="institucional.html">INSTITUCIONAL</a></th>
-            <th>NOTÍCIAS</th>
+            <th><a href="home.html#noticias">NOTÍCIAS</a></th>
             <th>PESQUISA</th>
             <th>
               <a href="areaaluno.html"
@@ -75,7 +88,6 @@
       </table>
     </div>
     <hr />
-    <br />
     <h2 style="text-align: center">Assista o Vídeo e saiba mais:</h2>
     <div style="display: flex; align-items: center; justify-content: center">
       <video
