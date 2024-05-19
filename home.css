@@ -253,6 +253,23 @@ p {
   display: block;
 }
 
+/*--------------------------------NOSSOS PILARES(HOME)--------------------------------------------------*/
+.h2pilares {
+  text-align: center;
+  font-family: fonteG;
+  color: rgb(255, 230, 0);
+  font-size: 1cm;
+}
+.divpilares {
+  margin-top: 5cm;
+}
+
+.ospilares {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
 /* LOGIN DO ALUNO */
 .containerButton {
   display: flex;
