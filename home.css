@@ -326,3 +326,34 @@ h3 {
 }
 
 /*-----------------*/
+
+.divcontainer {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.noticias-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Espaçamento entre as divs */
+}
+
+.destaque {
+  background-color: #c9daffd7;
+  padding: 10px;
+  border-radius: 8px;
+  width: 48%; /* Ajuste a largura conforme necessário */
+  box-sizing: border-box;
+}
+
+.destaque img {
+  display: flex;
+  margin: auto;
+}
+
+.destaque p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
