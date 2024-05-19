@@ -1,7 +1,11 @@
 /*No body precisariamos de uma fonte especifíca usada no canva, que baixamos da internet e importamos no aquivo*/
 @font-face {
   font-family: fonte1;
-  src: url(fontelight.ttf);
+  src: url(Fontes/fontelight.ttf);
+}
+@font-face {
+  font-family: fonteG;
+  src: url(Fontes/fonteG.ttf);
 }
 
 /*-----------------------------------CABEÇALHO - TELEFONE --------------------------------------------------*/
@@ -59,6 +63,7 @@ table {
   margin: auto; /* Centralize a tabela horizontalmente */
   letter-spacing: 1px;
   width: 100%;
+  font-size: 15px;
 }
 hr {
   margin-top: 0;
@@ -74,4 +79,81 @@ hr {
 .icone-professor {
   height: auto;
   width: 125px;
+}
+
+/*-------------------------------INICIO DA ESTRUTURA DO SITE-----------------------------------------*/
+
+/* ALTEREI AQUI*/
+.conteudo-container {
+  display: flex;
+  margin: 2rem;
+  gap: 40px;
+}
+
+.div-esquerda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+/* ATÉ AQUI*/
+
+.bloco1-azul {
+  background-color: rgb(36, 35, 114);
+  color: white;
+  padding: 50px;
+  width: 500px;
+  height: 200px;
+  /* margin-left: 2cm; cm?????????????*/
+  border-radius: 10px;
+}
+.bloco2-amarelo {
+  background-color: #ffd750;
+  padding: 20px;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.icone-escola-amarelo {
+  width: 100%;
+  height: auto;
+}
+
+.bloco3-azul {
+  background-color: #021338;
+  padding: 20px;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.bloco-em-baixo {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.alunos-estudando {
+  /* position: absolute; */
+
+  display: flex;
+  /* margin-left: 2cm; */
+  align-items: center;
+}
+
+/* ALTEREI AQUI*/
+.alunos-estudando img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-family: fonteG;
+}
+p {
+  font-family: fonte1;
 }

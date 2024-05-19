@@ -10,6 +10,19 @@
         margin: 0; /* Remover as margens*/
         font-family: fonte1;
       }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      /* Qando o mouse está sobre o link */
+      a:hover {
+        color: rgb(55, 79, 189);
+      }
+
+      /* Estilo para o link quando já foi visitado no caso nenhum */
+      a:visited {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -31,32 +44,84 @@
       <table>
         <thead>
           <tr>
+            <!--Para adicionar a foto na tabela-->
             <th rowspan="4">
-              <!--Para adicionar a foto na tabela-->
-              <img class="icone-escola" src="Icones/logoescola.png" />
+              <a href="home.html"
+                ><img class="icone-escola" src="Icones/logoescola.png"
+              /></a>
             </th>
-            <th>HOME</th>
-            <th>INSTITUCIONAL</th>
+            <th><a href="home.html">HOME</a></th>
+            <th><a href="institucional.html">INSTITUCIONAL</a></th>
             <th>NOTÍCIAS</th>
             <th>PESQUISA</th>
             <th>
-              <img
-                class="icone-acesso"
-                src="Icones/iconealuno.png"
-                alt="Icone de acesso area do aluno"
-              />
+              <a href="areaaluno.html"
+                ><img
+                  class="icone-acesso"
+                  src="Icones/iconealuno.png"
+                  alt="Icone de acesso area do aluno"
+              /></a>
             </th>
             <th>
-              <img
-                class="icone-professor"
-                src="Icones/iconeprofessor.png"
-                alt="Icone de acesso area do professor"
-              />
+              <a href="areaprofessor.html"
+                ><img
+                  class="icone-professor"
+                  src="Icones/iconeprofessor.png"
+                  alt="Icone de acesso area do professor"
+              /></a>
             </th>
           </tr>
         </thead>
       </table>
     </div>
     <hr />
+    <!--FIM DO CABEÇALHO-->
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--INICIO DA ESTRUTURA-->
+    <div class="conteudo-container">
+      <!-- Bloco azul grande -->
+      <div class="div-esquerda">
+        <div class="bloco1-azul">
+          <h2 style="font-size: 35px">
+            Plataforma para impulsionar
+            <b style="color: rgb(255, 199, 14)">transformação digital.</b>
+          </h2>
+          <p>
+            O ecossistema digital, criado para facilitar a gestão e engajar
+            professores e alunos, para que extraiam o máximo da tecnologia em
+            virtude da aprendizagem.
+          </p>
+        </div>
+        <br />
+        <br />
+        <!-- Contêiner para os blocos embaixo -->
+        <div class="bloco-em-baixo">
+          <!-- Bloco amarelo com a logo da escola -->
+          <div class="bloco2-amarelo">
+            <img
+              class="icone-escola-amarelo"
+              src="Icones/logoamarelaescola.png"
+              alt="Logo na cor amarela da Escola"
+            />
+          </div>
+          <!-- Bloco azul com "Conheça a escola" -->
+          <div class="bloco3-azul">
+            <h2 style="font-size: 15px">Conheça a escola !</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Imagem dos alunos estudando -->
+      <div class="alunos-estudando">
+        <img
+          src="Imagens/alunos-estudando.jpg"
+          alt="Alunos reunidos estudando"
+        />
+      </div>
+    </div>
   </body>
 </html>
