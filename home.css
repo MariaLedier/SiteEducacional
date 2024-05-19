@@ -173,53 +173,76 @@ p {
   font-family: fonte1;
 }
 
-.backgroundAreaAluno {
+.backgroundArea {
   background-color: #f8f8f8;
 }
 
-.imgAreaAluno {
-  margin-top: 50px;
-  justify-content: center;
-  width: 250px;
+.imgArea {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
 }
 
-.h1AreaAluno {
+.h1Area {
   text-transform: uppercase;
-  size: 10px;
+  font-size: 18px;
   text-align: center;
+  font-family: fonte1;
 }
 
-.buttonAreaAluno {
-  background-color: #007bff;
+.buttonArea {
+  background-color: #146cac;
   color: #fff;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
+  justify-content: center;
 }
 
-.labelAreaAluno {
-  display: block;
-  margin-bottom: 5px;
+.labelArea {
+  font-family: fonteG;
+  font-size: 20px;
+  margin: 15px 10px 5px 0px;
 }
 
-.containerAreaAluno {
-  width: 80%;
-  margin: 0 auto;
+.containerArea {
+  width: 25%;
+  margin: 15px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.inputAreaAluno {
-  width: 100%;
+.inputArea {
+  width: 95%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border-radius: 15px;
+  margin: 5px 0px 5px 0px;
+  font-family: fonteG;
+  font-size: 20px;
 }
 
-.centralizaAreaAluno {
-  align-items: center;
+.linha-azul {
+  border: none;
+  height: 2px;
+  background-color: #546494;
+  width: 400px;
+  margin-top: 5px;
+}
+
+.linkArea {
+  font-family: fonteG;
+}
+
+.containerArea2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgAreaProfessor{
+  margin: 0 auto;
+  display: block;
 }
